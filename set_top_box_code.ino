@@ -23,7 +23,7 @@ int blueRx=8;   //Rx (받는핀 설정)
 SoftwareSerial mySerial(blueTx, blueRx);  //시리얼 통신을 위한 객체선언
 
 // set up the 'counter' feed
-AdafruitIO_Feed *counter = io.feed(""); //피트 적기
+AdafruitIO_Feed *counter = io.feed(""); //피드 적기
 
 void setup() {
   
